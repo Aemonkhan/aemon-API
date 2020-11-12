@@ -1,0 +1,49 @@
+.wrapper, body{
+    margin: 2px;
+    background-color: rgb(224, 173, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+}
+.wrapper{
+    width: 95%;
+    margin: auto;
+}
+.title{
+    text-decoration: underline;
+}
+.search{
+    margin: auto;
+}
+#search{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+.recipeBox{
+    margin: 2px;
+}
+.box{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 10px solid white;
+    margin: 15px;
+    padding: 10px;
+}
+.row1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.box1{
+    text-align: center;
+    display: inline-block;
+    width: 2000px;
+    height: 1000px;
+    background-color: aquamarine;
+    border: 10px solid white;
+    margin: 15px;
+    padding: 10px;
+}
