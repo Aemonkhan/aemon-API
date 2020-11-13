@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button onclick="facebook()">onclick</button>
+    <button onclick="history.back()">back</button>
+    <button onclick="history.go(1)">forward</button> -->
+    <form onsubmit="return validateForm();">
+        Name: <input type="text" id="last" name="lastname"><br>
+        <input type="submit" value="Submit">
+        <br>
+        <label for="gender">male</label>
+        <input type="radio" name="gender" id="gender" value="male">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender1" value="female">
+        <br>
+        <label for="city">city</label>
+        <select name="city" id="city">
+            <option value="">Please select city</option>
+            <option value="karachi">karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Lahore">Lahore</option>
+
+        </select>
+
+    </form>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
