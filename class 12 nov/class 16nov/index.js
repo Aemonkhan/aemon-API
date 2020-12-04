@@ -75,3 +75,30 @@ var ages = [18, 20, 16, 21];
 //     )
 //     console.log(b)
 // }
+var plan1 = {
+    name: "Basic",
+    price: 3.99,
+    space: 100,
+    transfer: 1000,
+    pages: 10
+};
+plan1.price = 5
+// console.log(plan1)
+delete plan1.transfer
+plan1.features = [1, 2]
+plan1.membersonly = false;
+
+var propertyExists = "market" in plan1;
+console.log(propertyExists)
+console.log(plan1)
+// var x = plan1.name
+
+// console.log(x)
+// alert("The cost of the " + plan1.name + " package is $" + plan1.price + " per month.");
+function Plan(name, price, space, transfer, pages) {
+    this.name = name;
+    this.price = price;
+    this.space = space;
+}
+var plan5 = new Plan('aemon', 50, 100, 5, 2)
+console.log(plan5)
